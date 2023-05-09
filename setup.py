@@ -22,5 +22,5 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url='https://github.com/mbattley/package_jura_mpbattley',
     install_requires = ["numpy","matplotlib"],
-    classifiers=["Programming language :: Python :: 3"],
+    classifiers=["Programming language :: Python :: 3","Operating System :: OS Independent",],
     )
