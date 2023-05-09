@@ -74,14 +74,3 @@ class rv_curve_class:
         plt.xlabel("Time [d]")
         plt.ylabel("RV [m/s]")
         plt.show()
-
-rv = rv_curve_class(t0=0., p=10., e=0.5, w=np.pi/3, k=10., t_init=0., t_end=25.)
-
-# compute the RV curve
-t, rv = rv.rv_curve()
-
-# plot the RV curve
-plt.plot(t, rv)
-plt.xlabel("Time [d]")
-plt.ylabel("RV [m/s]")
-plt.show()
